@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="seport.css">
+    <title>Acess</title>
+  </head>
+  <body bgcolor="cyan">
+    <div class="ques">
+      What is your name?
+    </div>
+    <div class="opt1">
+      <input type="radio" name="fooby[1][]" id="correct1" class="prc">Parvi
+    </div>
+    <div class="opt2">
+      <input type="radio" name="fooby[1][]" id="inc1" class="prc1">Pratayee
+    </div>
+    <div class="opt3">
+      <input type="radio" name="fooby[1][]" id="inc2" class="prc2">Pratyusha
+    </div>
+    <div class="opt4">
+      <input type="radio" name="fooby[1][]" id="inc3" class="prc3">Joyotee
+    </div>
+      <div class="opt5">
+      <input type="submit" name="Submit1" value="Submit" onclick="result()" class="opr0">
+      </div>
+    <script type="text/javascript">
+      function result(){
+        var score=0;
+        if (document.getElementById('correct1').checked) {
+          score++;
+          location.href="/specialc.html";
+        }
+        if (document.getElementById('inc1').checked) {
+          score++;
+          alert('Access denied');
+        }
+        if (document.getElementById('inc2').checked) {
+          score++;
+          alert('Access denied');
+        }
+        if (document.getElementById('inc3').checked) {
+             score++;
+             alert('Access denied');
+           }
+       }
+    </script>
+  </body>
+</html>

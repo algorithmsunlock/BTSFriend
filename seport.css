@@ -1,0 +1,55 @@
+.ques{
+  align-content: center;
+  display: flex;
+  font-size: 100px;
+  position: initial;
+}
+.opt1{
+  align-items: center;
+  font-size: 60px;
+}
+input.prc{
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.opt2{
+  align-items: center;
+  font-size: 60px;
+}
+input.prc1{
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.opt3{
+  align-items: center;
+  font-size: 60px;
+}
+input.prc2{
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.opt4{
+  align-items: center;
+  font-size: 60px;
+}
+input.prc3{
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+input.opr0{
+  width: 500px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 240px;
+  font-size: 50px;
+  color: whitesmoke;
+  background-color: royalblue;
+}
